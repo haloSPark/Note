@@ -1,5 +1,5 @@
 # Note
-## git 相关
+## 工具相关
 ### arc命令
 
 * arc diff `branchName` --preview  与指定的分支进行diff
