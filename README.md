@@ -16,4 +16,10 @@
 * 修改config
   * cd .git
   * vim config
-* `./gradlew assembleRelease generateSourcesJar generatePomFileForAarPublication artifactoryPublish --info ` lib升级
+
+### Git删除在远程仓库已经不存在但仍存在本地的分支
+* `git remote show origin`
+* ` git remote prune origin`
+
+### gradle 
+* ` ./gradlew assembleRelease generateSourcesJar generatePomFileForAarPublication artifactoryPublish --info ` lib升级
